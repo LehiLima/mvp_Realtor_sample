@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ZAP_LEHI</string>
+    <string name="de"> de </string>
+    <string name="title_activity_detail_imovel">DetailImovelActivity</string>
+    <string name="nao_informado">Não informado</string>
+    <string name="send_sucess">ENVIADO COM SUCESSO ! </string>
+    <string name="send_error">ERRO NO ENVIO ! </string>
+    <string name="missing_data">ERRO AO CARREGAR DADOS! </string>
+    <string name="connection_error">SEM CONEXÂO COM A INTERNET! </string>
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="ordenar_por_preco">Ordenar por preço</string>
+    <string name="ordenar_por_n_vaga">Ordenar por número de vagas</string>
+    <string name="ordeenar_por_n_suites">Ordenar por número de suítes</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="erro_denuncia">Repostar erro ou denunciar esta oferta</string>
+    <string name="outras_características">Outras Características</string>
+    <string name="características">Características</string>
+    <string name="descricao">Descrição</string>
+    <string name="area">ÁREA(M²)</string>
+    <string name="vagas">VAGAS(S)</string>
+    <string name="suites">SUÍTE(S)</string>
+    <string name="dorms">DORMS.</string>
+    <string name="subtipo">Apartamento Padrão</string>
+    <string name="valor_venda">VALOR DE VENDA</string>
+    <string name="default_message">Olá, gostaria de ter mais informações sobre este imóvel que encontrei no ZAP imóveis.\n Aguardo seu retorno, </string>
+</resources>

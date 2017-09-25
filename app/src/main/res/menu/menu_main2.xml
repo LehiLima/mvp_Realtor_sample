@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="lehilima.zapmoveis_teste.view.Main2Activity">
+    <item
+        android:id="@+id/ordenar_por_preco"
+        android:orderInCategory="100"
+        android:title="@string/ordenar_por_preco"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ordenar_por_vaga"
+        android:orderInCategory="100"
+        android:title="@string/ordenar_por_n_vaga"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ordenar_por_suite"
+        android:orderInCategory="100"
+        android:title="@string/ordeenar_por_n_suites"
+        app:showAsAction="never" />
+</menu>

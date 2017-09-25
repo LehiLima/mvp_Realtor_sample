@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:background="@drawable/shape_custom_edittext"
+        >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        card_view:cardElevation="1000dp"
+        >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:elevation="10dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageimovel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_crop_original_grey_24dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background_gradient_top">
+        <TextView
+            android:id="@+id/subtipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Casa Padrão"
+            android:textSize="14sp"
+
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_gradient_bottom"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="R$ 800.000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            />
+        <TextView
+            android:id="@+id/endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Avenida Raimundo Pereita de magalhães"
+            android:textSize="12sp"
+            android:paddingLeft="10dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/informacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="3 Vagas , 129 m²"
+            android:textSize="12sp"
+            android:paddingLeft="10dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/destaque"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textColor="@android:color/white"
+            android:background="@color/purple"
+            android:text="SUPER DESTAQUE"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+ </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
